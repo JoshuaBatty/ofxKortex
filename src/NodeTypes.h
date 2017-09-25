@@ -13,6 +13,7 @@ enum MyNodeTypes {
     MNT_COMBINE_NODE,
     MNT_COMMENT_NODE,
     MNT_COMPLEX_NODE,
+    MNT_LFO_NODE,
 #   ifdef IMGUI_USE_AUTO_BINDING
     MNT_TEXTURE_NODE,
 #   endif
@@ -20,7 +21,7 @@ enum MyNodeTypes {
     MNT_COUNT
 };
 // used in the "add Node" menu (and optionally as node title names)
-static const char* MyNodeTypeNames[MNT_COUNT] = {"Color","Combine","Comment","Complex"
+static const char* MyNodeTypeNames[MNT_COUNT] = {"Color","Combine","Comment","Complex","LFO"
 #						ifdef IMGUI_USE_AUTO_BINDING
     ,"Texture"
 #						endif

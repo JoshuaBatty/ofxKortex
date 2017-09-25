@@ -10,6 +10,8 @@
 
 #include "NodeFactory.h"
 #include "NodeGraphEditor.h"
+namespace kortex	{
 
-void TestNodeGraphEditor();
+    void TestNodeGraphEditor();
 
+} // end namespace

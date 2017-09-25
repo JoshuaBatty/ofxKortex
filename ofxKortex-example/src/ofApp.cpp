@@ -4,8 +4,7 @@
 void ofApp::setup(){
     ofSetLogLevel(OF_LOG_VERBOSE);
     
-    //required call
-    gui.setup();
+    gui.setup(); //required call
 }
 
 //--------------------------------------------------------------
@@ -19,7 +18,7 @@ void ofApp::draw(){
     
     gui.begin(); //required to call this at beginning
     
-    TestNodeGraphEditor();   // see its code for further info
+    kortex::TestNodeGraphEditor();   // see its code for further info
     
     gui.end();  //required to call this at end
 }

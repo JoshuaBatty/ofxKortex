@@ -10,7 +10,7 @@
 
 
 //--------------------------------------------------------------
-void TestNodeGraphEditor()  {
+void kortex::TestNodeGraphEditor()  {
     
     static ImGui::NodeGraphEditor nge;
     if (nge.isInited())	{
@@ -44,6 +44,10 @@ void TestNodeGraphEditor()  {
         // optional load the style (for all the editors: better call it in InitGL()):
         //NodeGraphEditor::Style::Load(NodeGraphEditor::GetStyle(),"nodeGraphEditor.style");
         //--------------------------------------------------------------------------------
+        
+//        ImVector<ImGui::Node*> values;
+//        nge.getOutputNodesForNodeAndSlot(colorNode, 0, values);
+//        cout << "values= " << values[0] << endl;
     }
     nge.render();
     
