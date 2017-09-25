@@ -12,18 +12,18 @@ Inspired by Touch Designer, Max MSP, Quartz Composer and the like. The Goal of t
     * Ableton Link
     * MIDI
 
-*Outputs
+* Outputs
     * OSC
     * Pangolin Laser Software
     * MIDI
     * Artnet
 
-*Signals
+* Signals
     * LFO's
     * Perlin Noise
     * Tweens
 
-*Control
+* Control
     * MyOpenFrameWorksClass {class variables}
 
 ## Road Map ##
